@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40" viewBox="0 0 40 40">
+    <defs>
+        <radialGradient id="a" cx="29.924%" cy="100%" r="100%" fx="29.924%" fy="100%">
+            <stop offset="0%" stop-color="#FFC54D"/>
+            <stop offset="50.42%" stop-color="#FC1858"/>
+            <stop offset="100%" stop-color="#A02EC6"/>
+        </radialGradient>
+        <path id="b" d="M23.25 11.333a5.417 5.417 0 0 1 5.417 5.417v6.5a5.417 5.417 0 0 1-5.417 5.417h-6.5a5.417 5.417 0 0 1-5.417-5.417v-6.5a5.417 5.417 0 0 1 5.417-5.417h6.5zm3.792 11.917v-6.5c0-2.09-1.701-3.792-3.792-3.792h-6.5c-2.09 0-3.792 1.701-3.792 3.792v6.5c0 2.09 1.701 3.792 3.792 3.792h6.5c2.09 0 3.792-1.701 3.792-3.792zM20 15.667a4.334 4.334 0 1 1 0 8.667 4.334 4.334 0 0 1 0-8.667zm0 7.041A2.712 2.712 0 0 0 22.708 20 2.711 2.711 0 0 0 20 17.292 2.711 2.711 0 0 0 17.292 20 2.712 2.712 0 0 0 20 22.708zm4.658-6.789a.577.577 0 1 1 0-1.155.577.577 0 0 1 0 1.155z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <rect width="40" height="40" fill="url(#a)" fill-rule="nonzero" rx="20"/>
+        <use fill="#FFF" fill-rule="nonzero" xlink:href="#b"/>
+    </g>
+</svg>

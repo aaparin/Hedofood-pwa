@@ -1,0 +1,338 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta charset="UTF-8">
+	<title>#hedofood SPA</title>    
+	<link rel="stylesheet" href="styles/style.css" type="text/css">
+</head>
+<body>
+	<div class="screen screen_rations">
+		<div class="top">
+			<a href="" class="top__button top__button_back"></a>
+			<p class="screen__name">Выберите меню</p>			
+		</div>
+
+		<ul class="calories dragscroll">
+			<li><a class="active" href="" data-tab="1">1400 Ккал (XS)</a></li>
+			<li><a href="" data-tab="2">1700 Ккал (S)</a></li>
+			<li><a href="" data-tab="3">2000 Ккал (M)</a></li>
+			<li><a href="" data-tab="4">2500 Ккал (L)</a></li>			
+		</div>
+
+		<div class="calories__inner active" data-tab="1">
+
+			<div class="owl-carousel date-carousel">
+				<div data-date="1">на сегодня</div>
+				<div data-date="2">на завтра</div>
+				<div data-date="3">воскресенье</div>				
+			</div>
+
+			<div class="ration-date active" data-date="1">
+				
+				<ul class="food-value">
+					<li>256 <span>калорий</span></li>
+					<li>16 <span>белки</span></li>
+					<li>23 <span>жиры</span></li>
+					<li>68 <span>углеводы</span></li>
+				</ul>
+				<div class="owl-carousel ration-carousel">
+					<div>
+						<div class="ration__item">
+							<div class="ration__item-content">						
+								<p>завтрак</p>						
+								<img class="ration__item-img" src="images/menu.jpg" alt="">
+								<div class="ration__item-info">
+									<p class="ration__item-name">Рисовые блинчики с яблоком и корицей. Суфле с курицей и карри</p>
+									<p class="ration__item-weight">280 гр <span>|</span> 425 Ккал <a href="" class="info"></a></p>
+									
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div>
+						<div class="ration__item">
+							<div class="ration__item-content">						
+								<p>обед</p>						
+								<img class="ration__item-img" src="images/menu.jpg" alt="">
+								<div class="ration__item-info">
+									<p class="ration__item-name">Рисовые блинчики с яблоком и корицей. Суфле с курицей и карри</p>
+									<p class="ration__item-weight">280 гр <span>|</span> 425 Ккал <a href="" class="info"></a></p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div>
+						<div class="ration__item">
+							<div class="ration__item-content">						
+								<p>ужин</p>						
+								<img class="ration__item-img" src="images/menu.jpg" alt="">
+								<div class="ration__item-info">
+									<p class="ration__item-name">Рисовые блинчики с яблоком и корицей. Суфле с курицей и карри</p>
+												
+									<p class="ration__item-weight">280 гр <span>|</span> 425 Ккал <a href="" class="info"></a></p>					
+								</div>						
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="ration__order">
+					<div class="select__wrap">								
+						<select name="">
+							<option value="">6 дней</option>
+							<option value="">12 дней</option>
+							<option value="">24 дня</option>
+						</select>
+					</div>					
+					<div class="ration__price">
+						<s>5200</s>
+						4100 <span></span>
+					</div>					
+					<a href="" class="button">Хочу это меню!</a>
+				</div>
+
+			</div>	
+
+			<div class="ration-date" data-date="2">
+
+				<ul class="food-value">
+					<li>2-я <span>вкладка</span></li>
+					<li>16 <span>белки</span></li>
+					<li>23 <span>жиры</span></li>
+					<li>68 <span>углеводы</span></li>
+				</ul>
+
+				<div class="owl-carousel ration-carousel">
+					<div>
+						<div class="ration__item">
+							<div class="ration__item-content">						
+								<p>2-я вкладка</p>						
+								<img class="ration__item-img" src="images/menu.jpg" alt="">
+								<div class="ration__item-info">
+									<p class="ration__item-name">Рисовые блинчики с яблоком и корицей. Суфле с курицей и карри</p>
+									<p class="ration__item-weight">280 гр <span>|</span> 425 Ккал <a href="" class="info"></a></p>
+									
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div>
+						<div class="ration__item">
+							<div class="ration__item-content">						
+								<p>обед</p>						
+								<img class="ration__item-img" src="images/menu.jpg" alt="">
+								<div class="ration__item-info">
+									<p class="ration__item-name">Рисовые блинчики с яблоком и корицей. Суфле с курицей и карри</p>
+									<p class="ration__item-weight">280 гр <span>|</span> 425 Ккал <a href="" class="info"></a></p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div>
+						<div class="ration__item">
+							<div class="ration__item-content">						
+								<p>ужин</p>						
+								<img class="ration__item-img" src="images/menu.jpg" alt="">
+								<div class="ration__item-info">
+									<p class="ration__item-name">Рисовые блинчики с яблоком и корицей. Суфле с курицей и карри</p>
+													
+									<p class="ration__item-weight">280 гр <span>|</span> 425 Ккал <a href="" class="info"></a></p>					
+								</div>						
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="ration__order">
+					<div class="select__wrap">								
+						<select name="">
+							<option value="">6 дней</option>
+							<option value="">12 дней</option>
+							<option value="">24 дня</option>
+						</select>
+					</div>					
+					<div class="ration__price">
+						<s>5200</s>
+						4100 <span></span>
+					</div>					
+					<a href="" class="button">Хочу это меню!</a>
+				</div>
+			</div>
+
+			<div class="ration-date" data-date="3">
+				вкладка 3. пример кода во вкладке на сегодня 
+			</div>
+
+		</div>
+
+		<div class="calories__inner" data-tab="2">
+			
+
+
+			<div class="owl-carousel date-carousel">
+				<div data-date="1">на 2сегодня</div>
+				<div data-date="2">на 2завтра</div>
+				<div data-date="3">2воскресенье</div>				
+			</div>
+
+			<div class="ration-date active" data-date="1">
+				
+				<ul class="food-value">
+					<li>256 <span>калорий</span></li>
+					<li>16 <span>белки</span></li>
+					<li>23 <span>жиры</span></li>
+					<li>68 <span>углеводы</span></li>
+				</ul>
+				<div class="owl-carousel ration-carousel">
+					<div>
+						<div class="ration__item">
+							<div class="ration__item-content">						
+								<p>завтрак2.1</p>						
+								<img class="ration__item-img" src="images/menu.jpg" alt="">
+								<div class="ration__item-info">
+									<p class="ration__item-name">Рисовые блинчики с яблоком и корицей. Суфле с курицей и карри</p>
+									<p class="ration__item-weight">280 гр <span>|</span> 425 Ккал <a href="" class="info"></a></p>
+									
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div>
+						<div class="ration__item">
+							<div class="ration__item-content">						
+								<p>обед2.1</p>						
+								<img class="ration__item-img" src="images/menu.jpg" alt="">
+								<div class="ration__item-info">
+									<p class="ration__item-name">Рисовые блинчики с яблоком и корицей. Суфле с курицей и карри</p>
+									<p class="ration__item-weight">280 гр <span>|</span> 425 Ккал <a href="" class="info"></a></p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div>
+						<div class="ration__item">
+							<div class="ration__item-content">						
+								<p>ужин2.1</p>						
+								<img class="ration__item-img" src="images/menu.jpg" alt="">
+								<div class="ration__item-info">
+									<p class="ration__item-name">Рисовые блинчики с яблоком и корицей. Суфле с курицей и карри</p>
+												
+									<p class="ration__item-weight">280 гр <span>|</span> 425 Ккал <a href="" class="info"></a></p>					
+								</div>						
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="ration__order">
+					<div class="select__wrap">								
+						<select name="">
+							<option value="">6 дней</option>
+							<option value="">12 дней</option>
+							<option value="">24 дня</option>
+						</select>
+					</div>					
+					<div class="ration__price">
+						<s>5200</s>
+						4100 <span></span>
+					</div>					
+					<a href="" class="button">Хочу это меню!</a>
+				</div>
+
+			</div>	
+
+			<div class="ration-date" data-date="2">
+
+				<ul class="food-value">
+					<li>2-я <span>вкладка</span></li>
+					<li>16 <span>белки</span></li>
+					<li>23 <span>жиры</span></li>
+					<li>68 <span>углеводы</span></li>
+				</ul>
+
+				<div class="owl-carousel ration-carousel">
+					<div>
+						<div class="ration__item">
+							<div class="ration__item-content">						
+								<p>завтрак2.2</p>						
+								<img class="ration__item-img" src="images/menu.jpg" alt="">
+								<div class="ration__item-info">
+									<p class="ration__item-name">Рисовые блинчики с яблоком и корицей. Суфле с курицей и карри</p>
+									<p class="ration__item-weight">280 гр <span>|</span> 425 Ккал <a href="" class="info"></a></p>
+									
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div>
+						<div class="ration__item">
+							<div class="ration__item-content">						
+								<p>обед2.2</p>						
+								<img class="ration__item-img" src="images/menu.jpg" alt="">
+								<div class="ration__item-info">
+									<p class="ration__item-name">Рисовые блинчики с яблоком и корицей. Суфле с курицей и карри</p>
+									<p class="ration__item-weight">280 гр <span>|</span> 425 Ккал <a href="" class="info"></a></p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div>
+						<div class="ration__item">
+							<div class="ration__item-content">						
+								<p>ужин2.2</p>						
+								<img class="ration__item-img" src="images/menu.jpg" alt="">
+								<div class="ration__item-info">
+									<p class="ration__item-name">Рисовые блинчики с яблоком и корицей. Суфле с курицей и карри</p>
+													
+									<p class="ration__item-weight">280 гр <span>|</span> 425 Ккал <a href="" class="info"></a></p>					
+								</div>						
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="ration__order">
+					<div class="select__wrap">								
+						<select name="">
+							<option value="">6 дней</option>
+							<option value="">12 дней</option>
+							<option value="">24 дня</option>
+						</select>
+					</div>					
+					<div class="ration__price">
+						<s>5200</s>
+						4100 <span></span>
+					</div>					
+					<a href="" class="button">Хочу это меню!</a>
+				</div>
+			</div>
+
+			<div class="ration-date" data-date="3">
+				вкладка 3. пример кода во вкладке на сегодня 
+			</div>
+
+
+
+		</div>
+
+		<div class="calories__inner" data-tab="3">
+			пустая таба 3 / пример кода в табе 1
+		</div>
+
+		<div class="calories__inner" data-tab="4">
+			пустая таба 4 / пример кода в табе 1
+		</div>
+
+	<script src="js/jquery-3.3.1.min.js"></script>  
+	<script src="js/owl.carousel.min.js"></script>  
+	<script src="js/dragscroll.js"></script>  
+	<script src="js/script.js"></script>	
+</body>
+</html>
